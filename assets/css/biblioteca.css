@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cadeiras {
+  background: #dde3e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.cadeiras-wrapper {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+}
+
+.cadeiras-container {
+  text-align: center;
+  padding: 30px;
+  opacity: 0.5;
+}
+
+.cadeiras-container.ativo {
+  opacity: 1;
+  transition: .5s;
+}
+
+.cadeiras-container:hover {
+  opacity: 1;
+  transition: .5s;
+}
+
+.cadeiras-container button {
+  width: 120px;
+  padding: 25px;
+  background: #8AEABE;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+#calc {
+  background: #FFA800;
+}
+
+#lp {
+  background: #fff;
+}
+
+.cadeiras-container img {
+  width: 70px;
+  height: 70px;
+}
+
+.cadeiras-container h2 {
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background: #fff;
+  margin-top: 10px;
+}
+
+.aulas {
+  width: 100%;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aulas-container {
+  width: 75%;
+  max-width: 800px;
+  display: none;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  display: grid;
+}
+
+.aulas-container {
+  display: none;
+}
+
+.aulas-container.ativo {
+  display: grid;
+}
+
+.aula-card {
+  background: #dde3e6;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin: 0 auto;
+  animation: cards 1s forwards;
+}
+
+@keyframes cards {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.links {
+  background-color: #060b3f;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.aula-card h3 {
+  font-size: 24px;
+  padding: 15px;
+}
+
+.aula-card a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+  padding: 15px;
+}
+
+.aula-card a img {
+  margin-right: 6px;
+}
+
+
+@media screen and(max-width: 1024px) {
+  
+}
+
+@media screen and (max-width: 800px) {
+
+  .aulas-container.ativo {
+    display: grid;
+    width: 85%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    column-gap: 0;
+  }
+
+  .cadeiras-wrapper {
+    flex-direction: column;
+  }
+
+  .cadeiras-container {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 530px) {
+  .aulas-container {
+    width: 90%;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+}
