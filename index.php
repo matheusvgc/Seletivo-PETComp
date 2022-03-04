@@ -23,6 +23,14 @@
       <ul class="nav-list" id="menu">
         <li><a class="ativo" href="index.php">Início</a></li>
         <li><a href="sobre.php">Sobre Nós</a></li>
+        <li id="dropdown">
+          <p>Projetos</p>
+          <ul class="dropdown-menu">
+            <li><a href="monitoria.php">Monitoria</a></li>
+            <li><a href="desenvolvimento.php">Fáb. de Software</a></li>
+            <li><a href="oficinas.php">Minicursos e Oficinas</a></li>
+          </ul>
+        </li>
         <li><a href="publicacoes.php">Publicações</a></li>
         <li><a href="biblioteca-pet-comp.php">Biblioteca PETComp</a></li>
       </ul>

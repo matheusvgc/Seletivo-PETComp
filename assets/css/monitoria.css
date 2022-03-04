@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.monitoria {
+  width: 62%;
+  margin: 0 auto;
+  color: black;
+  padding: 20px 0;
+}
+
+.title {
+  width: 100%;
+}
+
+.title h2 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  border-bottom: 4px solid #343564;
+  padding-bottom: 10px;
+}
+
+.monitoria p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  line-height: 35px;
+  color: black;
+}
+
+.monitoria a {
+  color: #0004ff;
+}
+
+.monitoria-imgs {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .monitoria {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .monitoria {
+    width: 80%;
+  }
+
+  .monitoria-imgs {
+    grid-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .title h2 {
+    font-size: 30px;
+  }
+
+  .monitoria-imgs {
+    grid-gap: 10px;
+  }
+}

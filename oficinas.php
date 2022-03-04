@@ -8,7 +8,7 @@
   <link rel="shortcut icon" href="./assets/images/logoPET.ico">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <title>Sobre | PETComp</title>
+  <title>Minicursos | PETComp</title>
 </head>
 <body>
 <header>
@@ -22,7 +22,7 @@
 
       <ul class="nav-list" id="menu">
         <li><a href="index.php">Início</a></li>
-        <li><a class="ativo" href="sobre.php">Sobre Nós</a></li>
+        <li><a href="sobre.php">Sobre Nós</a></li>
         <li id="dropdown">
           <p>Projetos</p>
           <ul class="dropdown-menu">
@@ -37,23 +37,18 @@
     </nav>
   </header>
   <main>
-    <section class="sobre">
-      <div class="sobre-container">
+    <section class="oficinas">
+      <div class="oficinas-container">
         <div class="title">
-          <h2>SOBRE NÓS</h2>
+          <h2>MINICURSOS E OFICINAS</h2>
         </div>
-        <p>O Programa de Educação Tutorial de Ciência da Computação da UFMA foi criado em 1 de Setembro de 2007, tendo como tutor o Professor Alexandre César Muniz de Oliveira, em 19 de Janeiro de 2016 o Professor Geraldo Braz Junior tornou-se o novo tutor do grupo. E após sua excelente gestão, em 2019 assume o Professor Luis Rivero. O PET Computação já realizou diversas atividades de pesquisa, ensino e extensão.</p>
-        <p>Dentre as atividades desenvolvidas pelo PETComp podemos citar Acalourada (recepção dos calouros), Grupo de Acompanhamento ao Discente (GAD - Monitoria), Fábrica de Software (desenvolvimento de sites, apps como MAMAprev, Peça em casa e SOS MAMA), os petianos fazem pesquisas nas mais diversas áreas no laboratórios onde o PETComp é a porta de entrada da maioria, tivemos a produção de diversos minicursos e oficinas, produção e organização de eventos (EACOMP, ERCEMAPI, eJIM 2020 e ENEPET 2020) e o PodComp, o podcast do PETComp.</p>
-        <p>Para participar do nosso grupo, sempre tem seletivos durante o ano, basta acompanhar as redes sociais <a href="https://www.instagram.com/petcompufma" target="_blank">Instagram</a> e <a href="https://twitter.com/petcompufma" target="_blank">Twitter</a> @petcompufma.</p>
+        <p>A atividade busca-se promover minicursos, oficinas, palestras e discussões que possam agregar conhecimentos e senso crítico nos participantes da atividade. Essa prática será exposta para diversos públicos alvos, podendo ser discentes da instituição ou de outras instituições, a comunidade, alunos de escolas e idosos. O desenvolvimento da atividade será feito pelos petianos buscando divulgar o conhecimento adquirido dentro do PET e do curso.</p>
+        <p>Para as palestras serão convidados professores e profissionais para que eles possam explicar e mostrar as diferentes áreas, os possíveis trabalhos, as oportunidades, discutir as tecnologias atuais, instruir os participantes no mercado de trabalho, etc, dentro da computação. Elas terão como principais objetivos expandir as ideias e motivar os participantes dentro do curso e na vida profissional e acadêmica de forma geral. A atividade será uma forma de divulgar os resultados das atividades ocorridas dentro do grupo e promoverá oficinas e minicursos como métodos de aprendizagem, extensão e formação.</p>
+        <p>A atividade será organizada pelos petianos que irão organizar um espaço para a apresentação do minicurso/oficina/palestra. Os alunos irão apresentar de acordo com o que foi decidido dentro da atividade e/ou será convidado um profissional para abordar diversos assuntos que atraiam e ajudem os participantes no futuro. A aplicação do minicurso/palestra/oficina ocorrerá dependendo do público alvo, sempre aplicando uma metodologia que permita a participação prática dentro da atividade. Cada atividade será divulgada nas redes sociais e no site do PETComp para que o máximo de pessoas possam comparecer à apresentação.</p>
 
-        <div class="sobre-imgs">
-          <div class="img1"></div>
-          <div class="img2"></div>
-          <div class="img3"></div>
-          <div class="img4"></div>
-          <div class="img5"></div>
-          <div class="img6"></div>
-          <div class="img7"></div>
+        <div class="oficina-imgs">
+          <img src="./assets/images/ofc-1.jpg" alt="">
+          <img src="./assets/images/ofc-2.jpg" alt="">
         </div>
       </div>
     </section>

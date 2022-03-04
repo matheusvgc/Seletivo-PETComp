@@ -11,9 +11,9 @@
   <title>Biblioteca | PETComp</title>
 </head>
 <body>
-  <header>
+<header>
     <div class="logo">
-      <a href="index.php"><img src="./assets/images/logoPET.png" alt="Logo PETComp"></a>
+      <a href="index.php" class="logo-pet"><img src="./assets/images/logoPET.png" alt="Logo PETComp"></a>
       <div class="barra"></div>
       <a href="https://portalpadrao.ufma.br/site" target="_blank"><img src="./assets/images/logoUFMA.png" alt="Logo UFMA"></a>
     </div>
@@ -23,6 +23,14 @@
       <ul class="nav-list" id="menu">
         <li><a href="index.php">Início</a></li>
         <li><a href="sobre.php">Sobre Nós</a></li>
+        <li id="dropdown">
+          <p>Projetos</p>
+          <ul class="dropdown-menu">
+            <li><a href="monitoria.php">Monitoria</a></li>
+            <li><a href="desenvolvimento.php">Fáb. de Software</a></li>
+            <li><a href="oficinas.php">Minicursos e Oficinas</a></li>
+          </ul>
+        </li>
         <li><a href="publicacoes.php">Publicações</a></li>
         <li><a class="ativo" href="biblioteca-pet-comp.php">Biblioteca PETComp</a></li>
       </ul>

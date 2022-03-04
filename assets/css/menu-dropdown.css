@@ -1,0 +1,129 @@
+#dropdown {
+  position: relative;
+}
+
+#dropdown p {
+  padding: 10px 15px;
+  font-size: 18px;
+}
+
+#dropdown p:hover {
+  background-color: #343564;
+  color: #fff;
+  border-radius: 4px;
+}
+
+#dropdown::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 7px solid #343564;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  top: 18px;
+  left: 84px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background: #343564;
+  width: 140px;
+  z-index: 200;
+  top: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 10px;
+}
+
+#dropdown .dropdown-menu {
+  display: none;
+}
+
+#dropdown:hover .dropdown-menu,
+#dropdown.active .dropdown-menu {
+  display: block;
+  animation: showup .3s forwards;
+}
+
+@keyframes showup {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 30px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.dropdown-menu li {
+  text-align: left;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.dropdown-menu li:hover,
+.dropdown-menu li:hover a{
+  background-color: #fff;
+  color: #343564;
+}
+
+
+.dropdown-menu li a {
+  text-align: left;
+  color: white;
+}
+
+@media screen and (max-width:800px) {
+  #dropdown .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  #dropdown {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .dropdown-menu {
+    position: static;
+    background: transparent;
+    padding: 0px;
+    row-gap: 0;
+    width: 100%;
+  }
+
+  #dropdown p {
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  .dropdown-menu li a {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  #dropdown p {
+    padding: 0px 15px;
+    font-size: 24px;
+  }
+  
+  #dropdown p:hover {
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  #dropdown::before {
+    display: none;
+  }
+}

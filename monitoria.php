@@ -22,7 +22,7 @@
 
       <ul class="nav-list" id="menu">
         <li><a href="index.php">Início</a></li>
-        <li><a class="ativo" href="sobre.php">Sobre Nós</a></li>
+        <li><a href="sobre.php">Sobre Nós</a></li>
         <li id="dropdown">
           <p>Projetos</p>
           <ul class="dropdown-menu">
@@ -37,23 +37,19 @@
     </nav>
   </header>
   <main>
-    <section class="sobre">
-      <div class="sobre-container">
+    <section class="monitoria">
+      <div class="monitoria-container">
         <div class="title">
-          <h2>SOBRE NÓS</h2>
+          <h2>MONITORIA</h2>
         </div>
-        <p>O Programa de Educação Tutorial de Ciência da Computação da UFMA foi criado em 1 de Setembro de 2007, tendo como tutor o Professor Alexandre César Muniz de Oliveira, em 19 de Janeiro de 2016 o Professor Geraldo Braz Junior tornou-se o novo tutor do grupo. E após sua excelente gestão, em 2019 assume o Professor Luis Rivero. O PET Computação já realizou diversas atividades de pesquisa, ensino e extensão.</p>
-        <p>Dentre as atividades desenvolvidas pelo PETComp podemos citar Acalourada (recepção dos calouros), Grupo de Acompanhamento ao Discente (GAD - Monitoria), Fábrica de Software (desenvolvimento de sites, apps como MAMAprev, Peça em casa e SOS MAMA), os petianos fazem pesquisas nas mais diversas áreas no laboratórios onde o PETComp é a porta de entrada da maioria, tivemos a produção de diversos minicursos e oficinas, produção e organização de eventos (EACOMP, ERCEMAPI, eJIM 2020 e ENEPET 2020) e o PodComp, o podcast do PETComp.</p>
-        <p>Para participar do nosso grupo, sempre tem seletivos durante o ano, basta acompanhar as redes sociais <a href="https://www.instagram.com/petcompufma" target="_blank">Instagram</a> e <a href="https://twitter.com/petcompufma" target="_blank">Twitter</a> @petcompufma.</p>
+        <p>Visando combater problemas, como o alto índice de evasão dos cursos da área de tecnologia e o baixo rendimento dos alunos nas primeiras disciplinas que envolvem computação e cálculo, foi criado o GAD (Grupo de Acompanhamento de Discentes). Essa atividade serve como um grupo de estudos para os discentes que estão com dificuldade, além de ajudar na interação dos mesmos com outros alunos de períodos mais avançados do curso. Assim, ajudando e motivando os discentes a continuar no curso e a se interessar pelas disciplinas: Algoritmos 1, Cálculo 1 e Linguagem de Programação 1, sendo essas disciplinas de grande importância para o curso. Essa atividade, além de trazer o ensino e extensão, também envolve a pesquisa trazendo a formação criativa de novas práticas de ensino, apresentação e defesa de resultados.</p>
+        <p>Os principais resultados esperados após a realização dessa atividade são melhoria no rendimento dos discentes que participaram das monitorias, o desenvolvimento de novas metodologias de ensino e uma maior união dos petianos com o resto dos discentes do curso. Os arquivos da monitoria podem ser vistos neste <a href="biblioteca-pet-comp" target="_blank">link</a>
 
-        <div class="sobre-imgs">
-          <div class="img1"></div>
-          <div class="img2"></div>
-          <div class="img3"></div>
-          <div class="img4"></div>
-          <div class="img5"></div>
-          <div class="img6"></div>
-          <div class="img7"></div>
+        <div class="monitoria-imgs">
+          <img src="./assets/images/mon-1.jpg" alt="">
+          <img src="./assets/images/mon-2.jpg" alt="">
+          <img src="./assets/images/mon-3.jpg" alt="">
+          <img src="./assets/images/mon-4.jpg" alt="">
         </div>
       </div>
     </section>

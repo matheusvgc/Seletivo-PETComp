@@ -46,10 +46,14 @@ header {
 .nav {
   display: flex;
   margin-right: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-list {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu-toggle {
@@ -66,7 +70,7 @@ header {
   border-bottom: 2px solid #343564;
 }
 
-.nav-list li:hover a {
+.nav-list > li:hover a {
   background-color: #343564;
   color: #fff;
   border-radius: 4px;
@@ -376,7 +380,7 @@ footer {
   }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
 
   .logo {
     display: flex;
@@ -414,13 +418,19 @@ footer {
     background: #343564f8;
     width: 102%;
     height: 101vh;
-    z-index: 200;left: 0;
+    z-index: 200;
+    left: 0;
     top: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     animation: menu .3s forwards;
+    row-gap: 0;
+  }
+
+  .nav-list.ativo li {
+    margin: 10px auto;
   }
 
   @keyframes menu {
@@ -439,7 +449,7 @@ footer {
   }
 
   .nav-list li a.ativo {
-    border-bottom: 2px solid #fff;
+    border: none;
   }
 
   .menu-toggle {
@@ -468,11 +478,27 @@ footer {
 
   .nav-list li a {
     padding: 10px 15px;
-    font-size: 30px;
+    font-size: 24px;
     color: white;
   }
   
   .nav-list li:hover a {
+    background-color: #343564;
+    color: #fff;
+    border-radius: 4px;
+  }
+
+  #dropdown::before {
+    display: none;
+  }
+
+  #dropdown p {
+    padding: 0px 15px;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .nav-list li:hover p {
     background-color: #343564;
     color: #fff;
     border-radius: 4px;
