@@ -95,3 +95,5 @@ function handleClick(event) {
     this.classList.toggle('active')
   }
 }
+
+console.log(largura)
